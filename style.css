@@ -1,0 +1,28 @@
+/* 
+CSS file for personal webpage. 
+Qiao Yan Soh 
+*/
+
+
+/* Text styles */
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #2C3E50;
+    background-color: #eceef0;
+    padding-left: 20px;
+}
+
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+em{
+    color:#bfa563;
+    font-style: oblique;  
+}
+
