@@ -40,7 +40,7 @@ a { /* Normal link color */
 }
 
 /* Navigation bar style */
-.navbar {
+.nav {
     position: fixed;
     top: 0;
     width: 100%;
@@ -51,7 +51,7 @@ a { /* Normal link color */
     overflow: hidden;
 }
 
-.navbar a { /* Nav link color */
+.nav a { /* Nav link color */
     color: #bfa563;
     display: block;
     padding: 10px 8px;
@@ -59,7 +59,7 @@ a { /* Normal link color */
     text-align: center;
 }
 
-.navbar a:hover { /* Link hover color */
+.nav a:hover { /* Link hover color */
     color: #2C3E50;
 }
 
