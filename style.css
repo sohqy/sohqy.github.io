@@ -1,6 +1,6 @@
-/* 
-CSS file for personal webpage. 
-Qiao Yan Soh 
+/*
+CSS file for personal webpage.
+Qiao Yan Soh
 */
 
 
@@ -14,15 +14,59 @@ body {
     padding-left: 20px;
 }
 
+p {
+    color: #34495e;
+}
+
+p::selection {
+    background: #7d8b98;
+    color: #eceef0;
+}
 
 h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
+    padding-top: 10px;
 }
 
 em{
     color:#bfa563;
-    font-style: oblique;  
+    font-style: oblique;
 }
 
+a { /* Normal link color */
+    color: #7d8b98;
+}
+
+/* Navigation bar style */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.navbar a { /* Nav link color */
+    color: #bfa563;
+    display: block;
+    padding: 10px 8px;
+    float:left;
+    text-align: center;
+}
+
+.navbar a:hover { /* Link hover color */
+    color: #2C3E50;
+}
+
+.contact {
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
